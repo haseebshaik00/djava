@@ -22,7 +22,8 @@ h) unicode for java - 2 bytes of char can represent any one of the 65525 charact
 i) 
 
 
-**Important functions to remember**  
+
+**\*\*Important functions to remember**  
 1) Autoboxing
 int a=20;  
 Integer i=Integer.valueOf(a);//converting int into Integer explicitly  
@@ -36,7 +37,8 @@ int j=a;//unboxing, now compiler will write a.intValue() internally
 5) 
 
 
-**Note**  
+
+**\*\*Note**  
 1) java folder->topic file->package->class files
 2) int/double is default in java, so you have to type cast the variables while solving expressions
 to other data types, if you want your answers in other datatypes
