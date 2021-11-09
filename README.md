@@ -19,8 +19,11 @@ j) Type casting - implicit and explicit
 -- implicit/automatic = small to large datatype
 -- explicit = large to small datatype  
 h) unicode for java - 2 bytes of char can represent any one of the 65525 characters   
-i) 
+i) to represent a unicode character - '\u0040'
 
+**3) Strings**
+a) max size of a string can be determined by the size of memory or the max size of int 2.14b
+b) 
 
 
 **\*\*Important functions to remember**  
@@ -34,8 +37,7 @@ int i=a.intValue();//converting Integer to int explicitly
 int j=a;//unboxing, now compiler will write a.intValue() internally
 3) int a = Integer.MAX_VALUE; //Integer wrapper class max value  
 4) long a = 100L; //declaration of long value and use f for float values  
-5) 
-
+5)
 
 
 **\*\*Note**  
