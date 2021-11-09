@@ -1,11 +1,11 @@
-1) Prerequisite  
+**1) Prerequisite**  
 a) Introduction - https://www.youtube.com/watch?v=QaKX6SjU1vg&list=PLIY8eNdw5tW_uaJgi-FL9QwINS9JxKKg2&index=1  
 b) jdk, jre and jvm - https://www.guru99.com/difference-between-jdk-jre-jvm.html  
 c) jdk, jre and jvm video - https://www.youtube.com/watch?v=6wd2P2JTp9s&list=PLIY8eNdw5tW_uaJgi-FL9QwINS9JxKKg2&index=2  
 d) jvm architecture - https://dzone.com/articles/jvm-architecture-explained  
 e) Execution of Java Program - https://www.youtube.com/watch?v=GXUiEouK7DM  
 
-2) Basics  
+**2) Basics**  
 a) Boilerplate  
 b) print statements
 c) declaration statements 
@@ -22,7 +22,7 @@ h) unicode for java - 2 bytes of char can represent any one of the 65525 charact
 i) 
 
 
-** Important functions to remember
+**Important functions to remember**  
 1) Autoboxing
 int a=20;  
 Integer i=Integer.valueOf(a);//converting int into Integer explicitly  
@@ -36,7 +36,7 @@ int j=a;//unboxing, now compiler will write a.intValue() internally
 5) 
 
 
-** Note
+**Note**  
 1) java folder->topic file->package->class files
 2) int/double is default in java, so you have to type cast the variables while solving expressions
 to other data types, if you want your answers in other datatypes
