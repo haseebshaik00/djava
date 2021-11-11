@@ -25,9 +25,15 @@ n) condition/control flow statements - if-then(code block, short-circuit), if el
 o) operators - (arithmetic, logical, relational, assignment, bitwise, bit shift, 
 conditional and type comparison-instanceOf ~ only for objects)
 p) operator precedence - http://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html  
-q) 
+q) keywords, expression ~ variable,operators and operands but not datatype and semicolon, statements, 
+white spaces, indentation, code blocks, scope of variables  
 
-**3) Strings**  
+**3) Functions**
+a) 
+
+
+
+**4) Strings**  
 a) max size of a string can be determined by the size of memory or the max size of int 2.14b  
 b) strings can be appended using +, unicode characters can also be appended in this  
 c)  if we add a string and an integer the integer gets appended to the string i.e. 
@@ -55,12 +61,12 @@ int j=a;//unboxing, now compiler will write a.intValue() internally
 
   
 **\*\*Note**  
-1) java folder->topic file->package->class files
-2) int/double is default in java, so you have to type cast the variables while solving expressions
-to other data types, if you want your answers in other datatypes
+1) java folder->topic file->package->class files  
+2) int/double is default in java, so you have to type cast the variables while solving expressions  
+to other data types, if you want your answers in other datatypes  
 3) bool default value is false  
-4) prefer double over float as may lib works with double  
-5) for more precise calculations BigDecimal class is used
-6) int a=false; if(a=true) sout("yes"); // this line wont give an assignment operator error because the type in the condition 
+4) prefer double over float as may lib works with double only  
+5) for more precise calculations BigDecimal class is used  
+6) int a=false; if(a=true) sout("yes"); // this line wont give an assignment operator error because the type in the condition  
 statement is boolean and in the if statement basically assignment is being done  
-7) 
+7) the statement in the print function is also an expression  
