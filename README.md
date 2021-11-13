@@ -27,9 +27,21 @@ conditional and type comparison-instanceOf ~ only for objects)
 p) operator precedence - http://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html  
 q) keywords, expression ~ variable,operators and operands but not datatype and semicolon, statements, 
 white spaces, indentation, code blocks, scope of variables  
+r) diffmerge tool
 
-**3) Functions**
-a) 
+**3) Functions/Methods**
+a) method overloading - only changing the return type of the function doesn't ensures method overloading different 
+number of parameters or different datatype of the parameters or diff order of parameters is a must condition  
+b) method overloading vs overriding - 
+https://medium.com/@madhucynixit/difference-between-method-overloading-and-method-overriding-in-java-d3b71aa79e38  
+c) method overloading basically improves code readability and usability  
+d) some keywords - static, final and const  
+- private static final String INVALID_VALUE_MESSAGE = "Invalid Value";  
+// if we are using this variable in a static method then it should also be defined as static  
+final : once we assign this keyword to a variable we cannot change it's value  
+- 
+
+
 
 
 
@@ -55,12 +67,13 @@ Integer a=new Integer(3);
 int i=a.intValue();//converting Integer to int explicitly  
 int j=a;//unboxing, now compiler will write a.intValue() internally
 3) int a = Integer.MAX_VALUE; //Integer wrapper class max value  
-4) long a = 100L; //declaration of long value and use f for float values  
-5)
+4) long a = 100L; //declaration of long value, use d for double for double 
+but not necessary as default is taken as double and use f for float values  
+5) 
 
 
   
-**\*\*Note**  
+**\*\*Notes**  
 1) java folder->topic file->package->class files  
 2) int/double is default in java, so you have to type cast the variables while solving expressions  
 to other data types, if you want your answers in other datatypes  
@@ -70,3 +83,10 @@ to other data types, if you want your answers in other datatypes
 6) int a=false; if(a=true) sout("yes"); // this line wont give an assignment operator error because the type in the condition  
 statement is boolean and in the if statement basically assignment is being done  
 7) the statement in the print function is also an expression  
+8) Math class is used to perform mathematical operations on numbers  
+- Math.round();  
+
+9) A package can contain a number of classes and accessing a class from other class totally depends on the access specifier of 
+the class which is required to be accessed.  
+10) Same as above, a project contains a number of packages and we can access packages by importing them  
+11) 
