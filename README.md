@@ -27,7 +27,11 @@ conditional and type comparison-instanceOf ~ only for objects)
 p) operator precedence - http://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html  
 q) keywords, expression ~ variable,operators and operands but not datatype and semicolon, statements, 
 white spaces, indentation, code blocks, scope of variables  
-r) diffmerge tool
+r) diffmerge tool  
+s) control flow statements(switch, for, while, do while)
+-- switch accepts byte, short, char, int and string datatypes only 
+t) 
+
 
 **3) Functions/Methods**
 a) method overloading - only changing the return type of the function doesn't ensures method overloading different 
@@ -53,7 +57,9 @@ the integer is treated as a string  here
 d) strings are immutable in java, everytime an updation is done a new string is created, the old one 
 is discarded and the old one gets the values of the new string
 e) appending strings can be done efficiently using StringBuffer  
-f) 
+f) .toLowerCase() and toUpperCase()  
+g) to truncate after 2 decimal points
+String.format("%.2f",a);  
 
 
   
