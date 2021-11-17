@@ -73,8 +73,11 @@ g) to truncate after 2 decimal points
 String.format("%.2f",a);  
 
 
+**5) OOPS**  
+a) 
 
-  
+
+
 **\*\*Notes**  
 1) java folder->topic file->package->class files  
 2) int/double is default in java, so you have to type cast the variables while solving expressions  
