@@ -38,7 +38,14 @@ u) Scanner Class
 - scans the input and stores the value in the variable  
 - uses methods like next() to do the above task  
 - import java.util.Scanner;  
-
+- close the scanner after use with sc.close();  
+- What is the difference between scanner next and scanner nextLine?
+  A Scanner breaks its input into tokens using a delimiter pattern, which by default matches whitespace. 
+  next() : Finds and returns the next complete token from this scanner. nextLine() : Advances this scanner 
+  past the current line and returns the input that was skipped.  
+- cin.ignore ~ sc.nextLine();
+- hasNextInt() - checks if next input is int or not  
+- 
 
 **3) Functions/Methods**
 a) method overloading - only changing the return type of the function doesn't ensures method overloading different 
@@ -66,21 +73,6 @@ g) to truncate after 2 decimal points
 String.format("%.2f",a);  
 
 
-  
-**\*\*Important functions to remember**  
-1) Autoboxing
-int a=20;  
-Integer i=Integer.valueOf(a);//converting int into Integer explicitly  
-Integer j=a;//autoboxing, now compiler will write Integer.valueOf(a) internally
-2) Unboxing
-Integer a=new Integer(3);    
-int i=a.intValue();//converting Integer to int explicitly  
-int j=a;//unboxing, now compiler will write a.intValue() internally
-3) int a = Integer.MAX_VALUE; //Integer wrapper class max value  
-4) long a = 100L; //declaration of long value, use d for double for double 
-but not necessary as default is taken as double and use f for float values  
-5) 
-
 
   
 **\*\*Notes**  
@@ -97,5 +89,16 @@ statement is boolean and in the if statement basically assignment is being done
 - Math.round();
 9) A package can contain a number of classes and accessing a class from other class totally depends on the access specifier of 
 the class which is required to be accessed.  
-10) Same as above, a project contains a number of packages and we can access packages by importing them  
-11) 
+10) Same as above, a project contains a number of packages and we can access packages by importing them
+11) Autoboxing
+       int a=20;  
+       Integer i=Integer.valueOf(a);//converting int into Integer explicitly  
+       Integer j=a;//autoboxing, now compiler will write Integer.valueOf(a) internally 
+12) Unboxing
+    Integer a=new Integer(3);    
+    int i=a.intValue();//converting Integer to int explicitly  
+    int j=a;//unboxing, now compiler will write a.intValue() internally
+13) int a = Integer.MAX_VALUE; //Integer wrapper class max value
+14) long a = 100L; //declaration of long value, use d for double for double
+    but not necessary as default is taken as double and use f for float values
+15) 
