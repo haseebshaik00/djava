@@ -30,7 +30,14 @@ white spaces, indentation, code blocks, scope of variables
 r) diffmerge tool  
 s) control flow statements(switch, for, while, do while)
 -- switch accepts byte, short, char, int and string datatypes only 
-t) 
+t) Parsing values from a string ~ string to other datatypes  
+int n = Integer.parseInt(str);  
+u) Scanner Class  
+- parses all primitive and string types  
+- internally uses parse methods  
+- scans the input and stores the value in the variable  
+- uses methods like next() to do the above task  
+- import java.util.Scanner;  
 
 
 **3) Functions/Methods**
@@ -41,12 +48,9 @@ https://medium.com/@madhucynixit/difference-between-method-overloading-and-metho
 c) method overloading basically improves code readability and usability  
 d) some keywords - static, final and const  
 - private static final String INVALID_VALUE_MESSAGE = "Invalid Value";  
+- new keyword creates an instance of a class
 // if we are using this variable in a static method then it should also be defined as static  
-final : once we assign this keyword to a variable we cannot change it's value  
-- 
-
-
-
+final : once we assign this keyword to a variable we cannot change it's value
 
 
 **4) Strings**  
@@ -90,8 +94,7 @@ to other data types, if you want your answers in other datatypes
 statement is boolean and in the if statement basically assignment is being done  
 7) the statement in the print function is also an expression  
 8) Math class is used to perform mathematical operations on numbers  
-- Math.round();  
-
+- Math.round();
 9) A package can contain a number of classes and accessing a class from other class totally depends on the access specifier of 
 the class which is required to be accessed.  
 10) Same as above, a project contains a number of packages and we can access packages by importing them  
